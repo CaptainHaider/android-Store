@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bilalchips.store_app">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".welcome_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginScreen" />
+        <activity android:name=".signUp" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".shoesMenu"
+            android:label="@string/title_activity_shoes"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".clothesMenu"
+            android:label="@string/title_activity_clothes"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".accesoriesMenu"
+            android:label="@string/title_activity_accesories"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".skateboardsMenu"
+            android:label="@string/title_activity_skateboards"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ContactInfo"
+            android:label="@string/title_activity_contact_info"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".cartMenu"
+            android:label="@string/title_activity_cart"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".cardMenu"></activity>
+    </application>
+
+</manifest>

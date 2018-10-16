@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.bilalchips.store_app.welcome_screen">
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="@string/LoginHeading"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Douglas College"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+
+            android:id="@+id/TFusername"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@color/Lightwhite"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:hint="@string/username"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/TFpassword"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/Lightwhite"
+            android:drawableLeft="@drawable/ic_https_black_24dp"
+            android:drawableStart="@drawable/ic_https_black_24dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/colorPrimary" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginback"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Login"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/signUpbtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/sign_up" />
+
+    </LinearLayout>
+</LinearLayout>

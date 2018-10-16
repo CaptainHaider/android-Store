@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_shoes"
+            android:icon="@drawable/ic_menu_shoe"
+            android:title="Shoes" />
+        <item
+            android:id="@+id/nav_clothes"
+            android:icon="@drawable/ic_menu_clothes"
+            android:title="Clothes" />
+        <item
+            android:id="@+id/nav_accesories"
+            android:icon="@drawable/ic_menu_accesories"
+            android:title="Accesories" />
+        <item
+            android:id="@+id/nav_skateboards"
+            android:icon="@drawable/ic_menu_skateboard"
+            android:title="Skateboards" />
+    </group>
+
+    <item android:title="Advanced">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_info"
+                android:icon="@drawable/ic_menu_contact"
+                android:title="Contact" />
+            <item
+                android:id="@+id/nav_cart"
+                android:icon="@drawable/ic_menu_cart"
+                android:title="Cart" />
+        </menu>
+    </item>
+
+</menu>

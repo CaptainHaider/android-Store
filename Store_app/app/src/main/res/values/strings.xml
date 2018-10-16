@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Store_app</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="LoginHeading">Login</string>
+    <string name="passwordHint">Password</string>
+    <string name="emailhint">Email address</string>
+    <string name="UsernameHint">User name</string>
+    <string name="ConfirmHint">Confrm password</string>
+    <string name="Namehint">Name</string>
+    <string name="buy_shoes">Buy shoes</string>
+    <string name="check_out">Check out</string>
+    <string name="size">size:</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_shoes">Shoes</string>
+    <string name="title_activity_clothes">Clothes</string>
+    <string name="title_activity_accesories">Accesories</string>
+    <string name="title_activity_skateboards">Skateboards</string>
+    <string name="title_activity_contact_info">ContactInfo</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="delete_hint">Insert product id</string>
+    <string name="delete">Delete</string>
+    <string name="proceed_for_payment">proceed for payment</string>
+</resources>
